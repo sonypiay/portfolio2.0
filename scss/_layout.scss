@@ -1,0 +1,50 @@
+html, body {
+  background: $base-color;
+  font-family: $font-primary;
+}
+
+.bg-content {
+  background: #ffffff;
+  .header {
+    background: none;
+    .navbar {
+      .logo {
+        color: #222222;
+        @include fontsetting( $font-secondary, 1.5rem, 700, normal, 1px );
+      }
+      .nav {
+        li {
+          a {
+            color: #666666;
+            @include fontsetting( $font-primary, 0.9rem, 400, normal, 1px );
+            &:hover {
+              color: $yellow-lighten;
+              span {
+                width: 100%;
+                border-bottom: 2px solid $yellow-lighten;
+                @include transitionWidth();
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .background-homepage {
+    background: #ffffff;
+    height: 450px;
+    .myname {
+      color: #333333;
+      @include fontsetting( $font-primary, 2.7rem, 400, normal, 1px );
+      .darmawan {
+        color: $yellow-lighten;
+      }
+    }
+    .position {
+      color: #777777;
+      @include fontsetting( $font-primary, 1rem, 400, normal, 1px );
+    }
+  }
+  .background-cover { height: 450px; }
+
+}

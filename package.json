@@ -1,0 +1,17 @@
+{
+  "name": "modern-portfolio",
+  "version": "1.0.0",
+  "description": "A modern portfolio",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/assets/css/ --recursive"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "sonypiay",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
