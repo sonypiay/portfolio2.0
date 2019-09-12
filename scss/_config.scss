@@ -6,10 +6,10 @@ $font-secondary: 'Playfair Display', serif;
 
 // color
 $primary-color: #444444;
-$yellow: #ff9200;
-$yellow-lighten: lighten( $yellow, 15 );
-$yellow-darken: darken( $yellow, 15 );
-$black: #020306;
+$blue: #21A0DE;
+$blue-lighten: lighten( $blue, 15 );
+$blue-darken: darken( $blue, 15 );
+$black: #1B2831;
 $base-color: #ffffff;
 
 @mixin fontsetting( $font, $size, $weight, $stretch, $spacing )
@@ -21,7 +21,7 @@ $base-color: #ffffff;
   letter-spacing: $spacing;
 }
 
-@mixin transitionWidth()
+@mixin transition()
 {
   transition: 0.10s ease-in-out;
   -moz-transition: 0.10s ease-in-out;

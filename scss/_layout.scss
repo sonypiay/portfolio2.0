@@ -4,47 +4,66 @@ html, body {
 }
 
 .bg-content {
-  background: #ffffff;
-  .header {
-    background: none;
-    .navbar {
-      .logo {
-        color: #222222;
-        @include fontsetting( $font-secondary, 1.5rem, 700, normal, 1px );
-      }
-      .nav {
-        li {
-          a {
-            color: #666666;
-            @include fontsetting( $font-primary, 0.9rem, 400, normal, 1px );
-            &:hover {
-              color: $yellow-lighten;
-              span {
-                width: 100%;
-                border-bottom: 2px solid $yellow-lighten;
-                @include transitionWidth();
-              }
+  background: $blue;
+}
+
+.header {
+  .navbar {
+    .logo {
+      color: #222222;
+      @include fontsetting( $font-primary, 1.5rem, 700, normal, 1px );
+    }
+    .nav {
+      li {
+        a {
+          color: #ffffff;
+          @include fontsetting( $font-primary, 0.9rem, 400, normal, 1px );
+          span {
+            padding: 10px 20px;
+            border-radius: 40px;
+          }
+          &:hover {
+            span {
+              background: $blue-lighten;
+              color: #ffffff;
+              @include transition();
             }
           }
         }
       }
     }
   }
-  .background-homepage {
-    background: #ffffff;
-    height: 450px;
-    .myname {
-      color: #333333;
-      @include fontsetting( $font-primary, 2.7rem, 400, normal, 1px );
-      .darmawan {
-        color: $yellow-lighten;
-      }
-    }
-    .position {
-      color: #777777;
-      @include fontsetting( $font-primary, 1rem, 400, normal, 1px );
+}
+.background-overlay {
+  background: rgba( 33, 160, 222, 0.89 );
+}
+.background-homepage {
+  .myname {
+    color: #efefef;
+    @include fontsetting( $font-primary, 3rem, 700, normal, 0.3px );
+    .darmawan {
+      color: $blue-lighten;
     }
   }
-  .background-cover { height: 450px; }
-
+  .position {
+    color: #efefef;
+    @include fontsetting( $font-primary, 1.5rem, 400, normal, 1px );
+  }
+  .aboutme-short {
+    color: #efefef;
+    @include fontsetting( $font-primary, 1rem, 400, normal, 1px );
+  }
+  .btn-aboutme {
+    background: none;
+    color: #efefef;
+    @include fontsetting( $font-primary, 1rem, 400, normal, 1px );
+    margin-top: 2rem;
+    border-radius: 30px;
+    background: $blue;
+    &:hover {
+      background: $blue-darken;
+      color: #efefef;
+      @include transition();
+    }
+  }
 }

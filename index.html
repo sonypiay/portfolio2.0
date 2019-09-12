@@ -12,8 +12,9 @@
   <title>Welcome to My Portfolio</title>
 </head>
 <body>
-  <section class="uk-height-viewport bg-content">
-    <header class="header" uk-sticky>
+  <section class="uk-background-fixed uk-background-center-top uk-height-viewport bg-content" style="background-image: url('dist/assets/images/homepage.jpg')">
+    <div class="uk-overlay uk-overlay-primary background-overlay uk-position-cover"></div>
+    <header class="header">
       <div class="uk-container">
         <nav class="uk-navbar navbar" uk-navbar>
           <div class="uk-navbar-right">
@@ -27,21 +28,19 @@
         </nav>
       </div>
     </header>
-    <div class="uk-grid-collapse uk-grid-match" uk-grid>
-      <div class="uk-width-expand">
-        <div class="background-homepage">
-          <div class="uk-position-center-left uk-position-large">
-            <div class="myname">
-              <span class="sony">Sony</span>
-              <span class="darmawan">Darmawan</span>
-            </div>
-            <div class="position">Web Developer</div>
+    <div class="background-homepage">
+      <div class="uk-width-1-2@xl uk-width-1-3@l uk-width-1-2@m uk-width-1-1@s">
+        <div class="uk-position-center-left uk-position-large">
+          <div class="myname">
+            <span class="sony">Sony</span>
+            <span class="darmawan">Darmawan</span>
           </div>
-        </div>
-      </div>
-      <div class="uk-width-1-2">
-        <div class="uk-cover-container background-cover">
-          <img src="dist/assets/images/homepage.jpg" alt="" uk-cover>
+          <div class="position">Web Developer</div>
+          <div class="aboutme-short">
+            I really passionate with web programming, linux, network, learn everything autodidact on the Internet.
+            <br />
+            <a class="uk-button uk-button-primary btn-aboutme" href="#">About Me</a>
+          </div>
         </div>
       </div>
     </div>

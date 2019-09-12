@@ -5,49 +5,76 @@ html, body {
   font-family: "Karla", sans-serif; }
 
 .bg-content {
-  background: #ffffff; }
-  .bg-content .header {
-    background: none; }
-    .bg-content .header .navbar .logo {
-      color: #222222;
-      font-family: "Playfair Display", serif;
-      font-size: 1.5rem;
-      font-weight: 700;
-      font-stretch: normal;
-      letter-spacing: 1px; }
-    .bg-content .header .navbar .nav li a {
-      color: #666666;
-      font-family: "Karla", sans-serif;
-      font-size: 0.9rem;
-      font-weight: 400;
-      font-stretch: normal;
-      letter-spacing: 1px; }
-      .bg-content .header .navbar .nav li a:hover {
-        color: #ffb34d; }
-        .bg-content .header .navbar .nav li a:hover span {
-          width: 100%;
-          border-bottom: 2px solid #ffb34d;
-          transition: 0.10s ease-in-out;
-          -moz-transition: 0.10s ease-in-out;
-          -webkit-transition: 0.10s ease-in-out; }
-  .bg-content .background-homepage {
-    background: #ffffff;
-    height: 450px; }
-    .bg-content .background-homepage .myname {
-      color: #333333;
-      font-family: "Karla", sans-serif;
-      font-size: 2.7rem;
-      font-weight: 400;
-      font-stretch: normal;
-      letter-spacing: 1px; }
-      .bg-content .background-homepage .myname .darmawan {
-        color: #ffb34d; }
-    .bg-content .background-homepage .position {
-      color: #777777;
-      font-family: "Karla", sans-serif;
-      font-size: 1rem;
-      font-weight: 400;
-      font-stretch: normal;
-      letter-spacing: 1px; }
-  .bg-content .background-cover {
-    height: 450px; }
+  background: #21A0DE; }
+
+.header .navbar .logo {
+  color: #222222;
+  font-family: "Karla", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-stretch: normal;
+  letter-spacing: 1px; }
+
+.header .navbar .nav li a {
+  color: #ffffff;
+  font-family: "Karla", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 400;
+  font-stretch: normal;
+  letter-spacing: 1px; }
+  .header .navbar .nav li a span {
+    padding: 10px 20px;
+    border-radius: 40px; }
+  .header .navbar .nav li a:hover span {
+    background: #64bde8;
+    color: #ffffff;
+    transition: 0.10s ease-in-out;
+    -moz-transition: 0.10s ease-in-out;
+    -webkit-transition: 0.10s ease-in-out; }
+
+.background-overlay {
+  background: rgba(33, 160, 222, 0.89); }
+
+.background-homepage .myname {
+  color: #efefef;
+  font-family: "Karla", sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  font-stretch: normal;
+  letter-spacing: 0.3px; }
+  .background-homepage .myname .darmawan {
+    color: #64bde8; }
+
+.background-homepage .position {
+  color: #efefef;
+  font-family: "Karla", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-stretch: normal;
+  letter-spacing: 1px; }
+
+.background-homepage .aboutme-short {
+  color: #efefef;
+  font-family: "Karla", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  font-stretch: normal;
+  letter-spacing: 1px; }
+
+.background-homepage .btn-aboutme {
+  background: none;
+  color: #efefef;
+  font-family: "Karla", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  font-stretch: normal;
+  letter-spacing: 1px;
+  margin-top: 2rem;
+  border-radius: 30px;
+  background: #21A0DE; }
+  .background-homepage .btn-aboutme:hover {
+    background: #17709b;
+    color: #efefef;
+    transition: 0.10s ease-in-out;
+    -moz-transition: 0.10s ease-in-out;
+    -webkit-transition: 0.10s ease-in-out; }
